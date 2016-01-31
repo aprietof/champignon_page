@@ -12,10 +12,11 @@ a:hover {
 /****** FONTS ********/
 
 @font-face {
-  font-family: 'lane';
-  src: url('LANENAR_.ttf') format('truetype');
+  font-family: "eurof55";
+  src: url("../fonts/eurof55.ttf");
 }
 
+*{font-family: "eurof55";}
 
 
 /* Custom default button */
