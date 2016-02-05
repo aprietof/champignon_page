@@ -16,7 +16,7 @@ a:hover {
   src: url("../fonts/eurof55.ttf");
 }
 
-*{font-family: "eurof55";}
+ body {font-family: "eurof55";}
 
 
 /* Custom default button */
@@ -188,15 +188,19 @@ body {
   position:fixed;
   left:0px;
   bottom:0px;
-  height:30px;
+  height:25px;
   width:100%;
   background: rgb(0, 0, 0); /* This is for ie8 and below */
-  background: rgba(0, 0, 0, 0.7); 
+  background: rgba(25, 25, 25); 
   color: rgb(81, 81, 81);
-  font-size: 1em;
+  font-size: 11px;
   padding-top: 5px;
+  text-align: center;
  }
 
+body .footer {
+  font-family: arial, helvetica;
+}
 
 /*
  * Affix and center
